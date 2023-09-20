@@ -9,11 +9,11 @@ p {
   margin-bottom: 0;
 }
 
-ul,
-ol {
+ul {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  list-style-type: none;
 }
 
 img {
@@ -36,6 +36,8 @@ body {
   font-family: "Roboto", sans-serif;
   background: #fff;
   color: #434455;
+  text-decoration: none;
+  align-items: center;
 }
 
 
