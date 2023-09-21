@@ -15,7 +15,17 @@
       background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
-      url(../../images/people-office.jpg);
+      url(../../images/hero-images/mob-dark-bg.jpg);
+    }
+
+    @media screen and (min-resolution: 192dpi) {
+      .main-section {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+          ),
+          url(../../images/hero-images/mob-dark-bg@2x.jpg);
+      }
     }
 
 .main-section-title {
@@ -50,6 +60,71 @@
   .main-title-button:focus {
     background-color: var(--accent-color);
   }
+  
+/*===========MEDIA=================*/
+
+
+  @media screen and (min-width: 768px) {
+    .main-section {
+      padding-top: 112px;
+      padding-bottom: 112px;
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-images/tab-dark-bg.jpg);
+    }
+    @media screen and (min-resolution: 192dpi) {
+      .main-section {
+        background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../../images/hero-images/tab-dark-bg@2x.jpg);
+      }
+    }
+    .main-section-title {
+      max-width: 496px;
+      margin-bottom: 36px;
+      font-size: 56px;
+      font-weight: 700;
+      line-height: 1.07;
+      letter-spacing: 0.02em;
+    }
+  }
+
+  @media screen and (min-width: 1158px) {
+.main-section {
+  padding-top: 188px;
+  padding-bottom: 188px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../../images/hero-images/pc-dark-bg.jpg);
+}
+@media screen and (min-resolution: 192dpi) {
+  .main-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../../images/hero-images/pc-dark-bg@2x.jpg);
+  }
+  }
+
+  .main-section-title {
+      text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+  }
+}
 
 /*.main-section {
     background-color: #2e2f42;
