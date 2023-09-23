@@ -191,6 +191,7 @@ letter-spacing: 0.02em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+    text-decoration: none;
   }
 
   .another-color-text {
